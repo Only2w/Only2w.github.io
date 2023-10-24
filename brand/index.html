@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Poppins:wght@400;600;700&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <ul class="logo_title">
+                    <li class="logo_title-link"><a href="#"><img src="img/logo.png" alt=""></a></li>
+                    <li class="logo_title-link"><a href="#">
+                            <p class="logo_text">BRAND NAME</p>
+                        </a></li>
+                </ul>
+                <ul class="logo_inner">
+                    <li class="logo_inner-link"><a href="#"><img src="img/nav_link/Group 41.png" alt=""></a></li>
+                    <li class="logo_inner-link"><a href="#"><img src="img/nav_link/image 7.png" alt=""></a></li>
+                    <li class="logo_inner-link"><a href="#"><img src="img/nav_link/Group 225.svg" alt=""></a></li>
+                </ul>
+            </div>
+
+            <div class="nav">
+                <div class="container nav_title">
+                    <ul class="menu"><a href="#">Home</a></ul>
+                    <ul class="menu"><a href="#">Store</a></ul>
+                    <ul class="menu"><a href="#">ACCESSORIES</a></ul>
+                    <ul class="menu"><a href="#">BRAND</a></ul>
+                    <ul class="menu"><a href="#">PAGES</a></ul>
+                    <ul class="menu"><a href="#">ABOUT US</a></ul>
+                    <ul class="menu"><a href="#">NEWS</a></ul>
+                    <ul class="menu"><a href="#">CONTACT US </a></ul>
+                </div>
+            </div>
+
+            <form class="form" action="" method="get">
+                <input class="search" name="s" type="search">
+                <button class="btn" type="submit">Search</button>
+            </form>
+
+            <div class="under_search">
+                <div class="container">
+                    <div class="under_sup">
+                        <ul><a class="support" href="#"><img class="under_img" src="img/under_search/car.png" alt="">
+                                <p class="under_title">FREE SHIPPING</p>
+                            </a></ul>
+                        <ul><a class="support" href="#"><img class="under_img" src="img/under_search/card.svg" alt="">
+                                <p class="under_title">100% REFUND</p>
+                            </a></ul>
+                        <ul><a class="support" href="#"><img class="under_img" src="img/under_search/support.svg"
+                                    alt="">
+                                <p class="under_title">SUPPORT 24/7</p>
+                            </a></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="container main_inner">
+            <div class="main_link">
+                <img src="img/main/chair.png" alt="">
+            </div>
+            <div class="main_title">
+                <h3 class="main_title-h3">HOT DEALS THIS WEEK</h3>
+                <h1 class="main_title-h1">SALE 50% OFF
+                    MODERN FURNITURE</h1>
+                <button class="btn_main" type="submit">VIEW NOW</button>
+            </div>
+        </div>
+    </div>
+    <ul class="dot">
+        <span class="dot_link-inner" onclick="currentSlide(1)"></span>
+        <span class="dot_link-inner" onclick="currentSlide(2)"></span>
+        <span class="dot_link-inner" onclick="currentSlide(3)"></span>
+        <span class="dot_link-inner" onclick="currentSlide(4)"></span>
+        <span class="dot_link-inner" onclick="currentSlide(5)"></span>
+    </ul>
+
+    <div class="vintage">
+        <div class="container">
+            <div class="chair">
+                <div class="chair_img"></div>
+                <img src="img/main/chair2.png" alt="">
+                <div class="vintage_title">
+                    <p class="chair_title">INY VINTAGE CHAIR</p>
+                    <button class="btn_main" type="submit">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="vaza">
+            <div class="chair_img"></div>
+            <img src="img/main/vaza.png" alt="">
+            <div class="vintage_title">
+                <p class="vaza_title">LARGE TERRACOTA VASE</p>
+                <button class="btn_main" type="submit">VIEW DETAILS</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="decor">
+        <div class="container decor_inner">
+            <div class="decor_link">
+                <img class="decor_img" src="img/main/decor/Rectangle 6.png" alt="">
+                    <p class="decor_title">LINEN BEACH TOWEL</p>
+                    <div class="rating-area">
+                        <input type="radio" id="star-5" name="rating" value="5">
+                        <label for="star-5" title="Оценка «5»"></label>	
+                        <input type="radio" id="star-4" name="rating" value="4">
+                        <label for="star-4" title="Оценка «4»"></label>    
+                        <input type="radio" id="star-3" name="rating" value="3">
+                        <label for="star-3" title="Оценка «3»"></label>  
+                        <input type="radio" id="star-2" name="rating" value="2">
+                        <label for="star-2" title="Оценка «2»"></label>    
+                        <input type="radio" id="star-1" name="rating" value="1">
+                        <label for="star-1" title="Оценка «1»"></label>
+                    </div>
+                    <p class="sell">30$</p>
+            </div>
+
+            <div class="decor_link">
+                <img class="decor_img" src="img/main/decor/Rectangle 6.png" alt="">
+                    <p class="decor_title">LINEN BEACH TOWEL</p>
+                                        <div class="rating-area">
+                        <input type="radio" id="star-5" name="rating" value="5">
+                        <label for="star-5" title="Оценка «5»"></label>	
+                        <input type="radio" id="star-4" name="rating" value="4">
+                        <label for="star-4" title="Оценка «4»"></label>    
+                        <input type="radio" id="star-3" name="rating" value="3">
+                        <label for="star-3" title="Оценка «3»"></label>  
+                        <input type="radio" id="star-2" name="rating" value="2">
+                        <label for="star-2" title="Оценка «2»"></label>    
+                        <input type="radio" id="star-1" name="rating" value="1">
+                        <label for="star-1" title="Оценка «1»"></label>
+                    </div>
+                    <p class="sell">30$</p>
+            </div>
+
+            <div class="decor_link">
+                <img class="decor_img" src="img/main/decor/Rectangle 6.png" alt="">
+                    <p class="decor_title">LINEN BEACH TOWEL</p>
+                                        <div class="rating-area">
+                        <input type="radio" id="star-5" name="rating" value="5">
+                        <label for="star-5" title="Оценка «5»"></label>	
+                        <input type="radio" id="star-4" name="rating" value="4">
+                        <label for="star-4" title="Оценка «4»"></label>    
+                        <input type="radio" id="star-3" name="rating" value="3">
+                        <label for="star-3" title="Оценка «3»"></label>  
+                        <input type="radio" id="star-2" name="rating" value="2">
+                        <label for="star-2" title="Оценка «2»"></label>    
+                        <input type="radio" id="star-1" name="rating" value="1">
+                        <label for="star-1" title="Оценка «1»"></label>
+                    </div>  
+                    <p class="sell">30$</p>            
+            </div>
+
+            <div class="decor_link">
+                <img class="decor_img" src="img/main/decor/Rectangle 6.png" alt="">
+                    <p class="decor_title">LINEN BEACH TOWEL</p>
+                                        <div class="rating-area">
+                        <input type="radio" id="star-5" name="rating" value="5">
+                        <label for="star-5" title="Оценка «5»"></label>	
+                        <input type="radio" id="star-4" name="rating" value="4">
+                        <label for="star-4" title="Оценка «4»"></label>    
+                        <input type="radio" id="star-3" name="rating" value="3">
+                        <label for="star-3" title="Оценка «3»"></label>  
+                        <input type="radio" id="star-2" name="rating" value="2">
+                        <label for="star-2" title="Оценка «2»"></label>    
+                        <input type="radio" id="star-1" name="rating" value="1">
+                        <label for="star-1" title="Оценка «1»"></label>
+                    </div>
+                    <p class="sell">30$</p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

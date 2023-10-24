@@ -1,0 +1,168 @@
+body {
+    background-color: #016A70;
+    font-family: Poppins;
+}
+
+a {
+    text-decoration: none;
+    color: #393E46;
+}
+
+.navbar {
+    margin: 50px 130px;
+    width: 100%;
+    max-width: 1200px;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.navbar .container {
+   height: inherit;    /*высота как у navbar, если не поставтить то текст не втсанет на блок*/
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navbar-menu {
+    list-style-type: none; /*убрать точки со списка*/
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 600; /*болт тудасюда*/
+}
+
+.navbar-menu li {
+    display: inline-block; /*чтоб li стала строчной*/
+    margin-bottom: 20px;
+}
+
+.navbar-menu li a {
+    display: inline-block; /*чтоб li стала строчной*/
+    /* padding: 20px; */
+    margin-left: 30px;
+    /* opacity: 0.6; прозрачность */
+    transition: color .2s ease;
+    margin-top: 10px;
+}
+
+.navbar-menu li a:hover {
+   color: #016A70;
+}
+
+.navbar-wrap { /*чтоб список и кнопка были встроку*/
+    padding-right: 50px;
+    display: flex;
+    flex-flow: row nowrap; /*через display:flex указываем как элементам распологаться*/
+}
+
+.btn {
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    padding: 10px 25px;
+    font-size: 14px;
+    background-color: #016A70;
+    border-radius: 10px;
+    color: #fff;
+    transition: background-color .3s ease;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.433);
+}
+
+.navbar-brand {
+    width: 105px;
+    height: 31px;
+    padding-left: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin-top: 200px;
+}
+
+.text-h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align:left;
+    line-height: 1;
+    color: #FFFFDD;
+    
+}
+
+.text-h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.text-p {
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.title-text {
+    display: block;
+    width: 100%;
+    max-width: 389px;
+    margin-left: 200px;
+}
+
+.title-btn {
+    font-size: 10px;
+    color: #fff;
+    outline: 1px solid;
+    outline-offset: 5px;
+    border-radius: 3px;
+    padding: 0 10px;
+    transition: color .3s ease;
+}
+
+.title-btn:hover {
+    color: #393E46;
+}
+
+.title-imgg {
+    width: 500px;
+    height: 400px;
+    margin-top: -90px;
+    padding-right: 200px;
+}
+
+.footer-und {
+    margin-top: 100px;
+    background-color: #fff;
+}
+
+.footer-num {
+    display: flex;
+
+}
+
+.footer-stat {
+   flex: 1 1 0; /*чтоб все заняли одинковую ширину*/
+   text-align: center;
+    margin-left: 130px;
+    padding: 20px 60px;
+
+}
+
+.stat {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.stat-text {
+    font-size: 15px;
+    font-weight: 400;
+}
